@@ -1,0 +1,82 @@
+/* Styles */
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	background-color: #b99c7f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Content */
+.widget-1 {
+	width: 285px;
+	overflow-y: auto;
+	border-radius: 7px;
+	position: relative;
+}
+.widget-1:hover {
+	box-shadow: 3px 3px #4DAF7B;
+	transition: box-shadow 0.3s ease-in-out;
+}
+.widget-1 .heading {
+	padding: 15px 22px;
+	background-color: #B1A599;
+}
+.widget-1 .heading img.profile {
+	width: 90px;
+	height: 90px;
+	padding: 5px;
+	border: 1px solid #998C81;
+	border-radius: 50%;
+}
+.widget-1 .heading h2 {
+	width: 125px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	top: 35px;
+	left: 125px;
+}
+.widget-1 .heading h3 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 13px;
+	color: #998C81;
+	position: absolute;
+	top: 75px;
+	left: 125px;
+}
+.widget-1 .content ul {
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+.widget-1 .content li a {
+    display: block;
+    color: #B1A599;
+    padding: 15px;
+    text-decoration: none;
+}
+.widget-1 .content li a:hover,
+.widget-1 .content li a:active {
+	border-left: 3px solid #4DAF7B;
+	background-color: #f8f3f0;
+	padding-left: 12px;
+}
+.widget-1 .content .icon {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+}
